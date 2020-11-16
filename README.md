@@ -2,7 +2,7 @@
 
 The state of California is known as a solidly Democratic state.  However, it wasn't always that way.  Recall, this is the state that gave us notable Republican presidents Richard Nixon and Ronald Reagan, not to mention the Republican "Governator", Arnold Schwatzeneggar.
 
-Orange County, south of Los Angeles, is a historically a solid Republican county.  But the currents of change are strong in that area.  How fast are they changing?  What magnitude of shift would be required for Orange County's allegiance shift to favor Democrats?  
+Orange County, south of Los Angeles, is a historically a solid Republican county.  However, in 2018, the county elected a slate of Democrats to represent them in Congress.  
 
 Problem Statement:
 
