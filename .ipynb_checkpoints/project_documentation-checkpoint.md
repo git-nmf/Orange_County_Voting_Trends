@@ -35,12 +35,12 @@ This creates a framework that could be applied to other counties in California, 
 | occ_mgmt_sci_art | Estimate OCCUPATION Civilian employed population 16 years and over Management, business, science, and arts occupations |
 | occ_service_sector | Estimate OCCUPATION Civilian employed population 16 years and over Service occupations |
 | occ_sales_gen_office | Estimate OCCUPATION Civilian employed population 16 years and over Sales and office occupations |
-| occ_constr_maintc | Estimate OCCUPATION Civilian employed population 16 years and over Natural resources, construction, and maintenance occupations': '',
-             'Estimate OCCUPATION Civilian employed population 16 years and over Production, transportation, and material moving occupations': 'occ_manuf_transpo',
-             'Estimate INCOME AND BENEFITS (IN 2018 INFLATION-ADJUSTED DOLLARS) Total households Median household income (dollars)': 'hh_med_income',
-             'Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With private health insurance': 'hlthins_priv',
-             'Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With public coverage': 'hlthins_public',
-             'Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population No health insurance coverage': 'hlthins_none'}
+| occ_constr_maintc | Estimate OCCUPATION Civilian employed population 16 years and over Natural resources, construction, and maintenance occupations |
+| occ_manuf_transpo | Estimate OCCUPATION Civilian employed population 16 years and over Production, transportation, and material moving occupations |
+| hh_med_income | Estimate INCOME AND BENEFITS (IN 2018 INFLATION-ADJUSTED DOLLARS) Total households Median household income (dollars) |
+| hlthins_priv | Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With private health insurance |
+| hlthins_public | Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With public coverage |
+| hlthins_none | Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population No health insurance coverage |
 
 
 #### Cleaning and Exploratory Data Analysis:
