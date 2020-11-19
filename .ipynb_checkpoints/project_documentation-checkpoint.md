@@ -41,6 +41,41 @@ This creates a framework that could be applied to other counties in California, 
 | hlthins_priv | Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With private health insurance |
 | hlthins_public | Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With public coverage |
 | hlthins_none | Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population No health insurance coverage |
+| _ wtd | temporary suffix to signify census tract data weighted by the percent of the precint that it represents |
+
+**Voting Data**
+| Item | Description |
+| --- | --- |
+| county | county |
+| srprec | voting precinct |
+| cddist | congressional district |
+| TOTREG | total registered voters by precinct|
+| TOTVOTE | total voted within precinct |
+| CNGDEM01 | votes for congressional representative - democrat |
+| CNGREP01  | votes for congressional representative - republican |
+| dem | registered democrats |
+| rep | registered republicans |
+| dcl | registered voters - no party affiliation| 
+| male | male voters |
+| female | femail voters |
+| hispdem | hispanic voters - registered democrat | 
+| hisprep | hispanic voters - registered repubican |
+| hispdcl | hispanic voters - no party affiliation|
+| hispoth | hispanic voters - registered for other parties 
+
+
+
+**Converter File**
+| Item | Description |
+| --- | --- |
+| srprec | voting precint |
+| tract | census tract |  
+| block | census block |
+| blkreg | # registered voters in the block for the given precinct |
+| srtotreg | # registered voters in the precinct |
+| pctsrprec | % of precinct represented by the block |
+| blktotreg | # registered voters in the block |
+| pctblk | % of block voters represented by the precinct |
 
 
 #### Cleaning and Exploratory Data Analysis:
