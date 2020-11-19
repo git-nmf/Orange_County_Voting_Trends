@@ -1,8 +1,8 @@
 ## Problem Statement
 
-## Using voting results and voter-registration and demographics from Orange County in 2014 general election, this study will create a classification model that will predict vote for Governor based on key demographic inputs. 
+## Using voting results and voter-registration and demographics from Orange County in 2018 general election, this study will create a classification model that will predict vote for Congress based on key demographic inputs. 
 
-# DSI Capstone:  Tectonic Shifts in California Political Sentiment
+# Executive Summary:  Shifts in Political Sentiment in Orange County, CA
 
 The state of California is known as a solidly Democratic state.  However, it wasn't always that way.  Recall, this is the state that gave us notable Republican presidents Richard Nixon and Ronald Reagan, not to mention the Republican "Governator", Arnold Schwatzeneggar.
 
@@ -11,24 +11,37 @@ Orange County, south of Los Angeles, is a historically a solid Republican county
 <a id = problem> </a>
 Problem Statement:
 
-This study examines the connection between demographic, economic, and social trends and voting results in Orange County over the past 10 years, seeking to identify predictive factors in election outcomes.  From there, we will seek to predict how many more years it will take for Orange County to vote Democrat for the major national offices:  President, Senate, and Congress.
+This study examines the connection between demographic and economic factors and voting results in Orange County in 2018, seeking to identify predictive factors in election outcomes.   
 
-We will map these trends onto a street map of Orange County to help individual voters understand the magntitude of the changes happening in on their block, in their community, and in the surrounding areas.  Our intent is to make politics more accessible to the individual, and less "just something that's discussed on TV".
-
-Long-Range Aspiration:
-
-This is the first step in creating a "Politics Prognosticator" app.  Similar to investment tools, this app would provide sliders for different societal issues, allowing individuals to interact with the macro factors affecting their lives, as well as for politicians to visualize the trends in their districts.
+We will map these factors onto a street map of Orange County to help individual voters understand the magntitude of the changes happening in on their block, in their community, and in the surrounding areas.  Our intent is to make politics more accessible to the individual, and less "just something that's discussed on TV".
 
 This creates a framework that could be applied to other counties in California, as well as other states.  
 
 
-### Data to be used to explore the trends, model interrelationships, and predict outcomes.
-
 #### Data:
-1. Census Data:  demographic data, income data
-2. Statewidedatabase.org:  voting data
-3. Mapping ???
-4. NewsAPI:  editorial data as a proxy for sentiment/NLP ???
+1. Census Data:  economic data, shape files for mapping
+2. Statewidedatabase.org:  voting data, conversion file between voting precinct and census-tract
+
+**Census Economic Data from table DP03 for 2018 from American Community Survey 5-Year Estimate**
+| Item | Description |
+| --- | --- |
+| tract | census tract |
+| employed | Estimate EMPLOYMENT STATUS Population 16 years and over In labor force - Civilian labor force Employed |
+| unemployed | Estimate EMPLOYMENT STATUS Population 16 years and over In labor force - Civilian labor force Unemployed | empl_military | Estimate EMPLOYMENT STATUS Population 16 years and over In labor force - Armed Forces |
+| not_inlaborforce | Estimate EMPLOYMENT STATUS Population 16 years and over Not in labor force |
+| working_women | Estimate EMPLOYMENT STATUS Females 16 years and over In labor force Civilian labor force Employed |
+| parents_work_under6 | Estimate EMPLOYMENT STATUS Own children of the householder under 6 years All parents in family in labor force |
+| parents_work_0617 | Estimate EMPLOYMENT STATUS Own children of the householder 6 to 17 years All parents in family in labor force |
+| occ_mgmt_sci_art | Estimate OCCUPATION Civilian employed population 16 years and over Management, business, science, and arts occupations |
+| occ_service_sector | Estimate OCCUPATION Civilian employed population 16 years and over Service occupations |
+| occ_sales_gen_office | Estimate OCCUPATION Civilian employed population 16 years and over Sales and office occupations |
+| occ_constr_maintc | Estimate OCCUPATION Civilian employed population 16 years and over Natural resources, construction, and maintenance occupations': '',
+             'Estimate OCCUPATION Civilian employed population 16 years and over Production, transportation, and material moving occupations': 'occ_manuf_transpo',
+             'Estimate INCOME AND BENEFITS (IN 2018 INFLATION-ADJUSTED DOLLARS) Total households Median household income (dollars)': 'hh_med_income',
+             'Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With private health insurance': 'hlthins_priv',
+             'Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population With health insurance coverage With public coverage': 'hlthins_public',
+             'Estimate HEALTH INSURANCE COVERAGE Civilian noninstitutionalized population No health insurance coverage': 'hlthins_none'}
+
 
 #### Cleaning and Exploratory Data Analysis:
 

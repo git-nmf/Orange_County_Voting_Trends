@@ -1,8 +1,8 @@
 ## Problem Statement
 
-## Using voting results and voter-registration and demographics from Orange County in 2014 general election, this study will create a classification model that will predict vote for Governor based on key demographic inputs. 
+## Using voting results and voter-registration and demographics from Orange County in 2018 general election, this study will create a classification model that will predict vote for Congress based on key demographic inputs. 
 
-# DSI Capstone:  Tectonic Shifts in California Political Sentiment
+# Executive Summary:  Shifts in Political Sentiment in Orange County, CA
 
 The state of California is known as a solidly Democratic state.  However, it wasn't always that way.  Recall, this is the state that gave us notable Republican presidents Richard Nixon and Ronald Reagan, not to mention the Republican "Governator", Arnold Schwatzeneggar.
 
@@ -11,24 +11,21 @@ Orange County, south of Los Angeles, is a historically a solid Republican county
 <a id = problem> </a>
 Problem Statement:
 
-This study examines the connection between demographic, economic, and social trends and voting results in Orange County over the past 10 years, seeking to identify predictive factors in election outcomes.  From there, we will seek to predict how many more years it will take for Orange County to vote Democrat for the major national offices:  President, Senate, and Congress.
+This study examines the connection between demographic and economic factors and voting results in Orange County in 2018, seeking to identify predictive factors in election outcomes.   
 
-We will map these trends onto a street map of Orange County to help individual voters understand the magntitude of the changes happening in on their block, in their community, and in the surrounding areas.  Our intent is to make politics more accessible to the individual, and less "just something that's discussed on TV".
-
-Long-Range Aspiration:
-
-This is the first step in creating a "Politics Prognosticator" app.  Similar to investment tools, this app would provide sliders for different societal issues, allowing individuals to interact with the macro factors affecting their lives, as well as for politicians to visualize the trends in their districts.
+We will map these factors onto a street map of Orange County to help individual voters understand the magntitude of the changes happening in on their block, in their community, and in the surrounding areas.  Our intent is to make politics more accessible to the individual, and less "just something that's discussed on TV".
 
 This creates a framework that could be applied to other counties in California, as well as other states.  
 
 
-### Data to be used to explore the trends, model interrelationships, and predict outcomes.
-
 #### Data:
-1. Census Data:  demographic data, income data
-2. Statewidedatabase.org:  voting data
-3. Mapping ???
-4. NewsAPI:  editorial data as a proxy for sentiment/NLP ???
+1. Census Data:  economic data, shape files for mapping
+2. Statewidedatabase.org:  voting data, conversion file between voting precinct and census-tract
+
+
+
+
+
 
 #### Cleaning and Exploratory Data Analysis:
 
